@@ -26,8 +26,11 @@ int main()
 
     cout << "Main function global variable: "<<global_Variable << endl; 
     cout <<"local variable of main function: "<< local_Variable << endl;
-    
     Function();
+
+    // for printing global variable
+    cout << "Global variable using scope res op: " << ::global_Variable << endl; 
+    
 
     return 0;
 }
