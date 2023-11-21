@@ -9,7 +9,6 @@
 
 using namespace std;
 
-
 int main()
 {
     int changeable_variable = 12;
