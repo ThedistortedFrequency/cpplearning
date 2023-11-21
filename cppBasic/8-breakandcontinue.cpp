@@ -17,6 +17,8 @@ int main()
 
     // continue 
     for(int i = 0; i<= 10; i++){
+        
+        // it skips 5 and then print 5 number.
         if(i == 5){
             continue;      
 
