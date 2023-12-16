@@ -15,35 +15,46 @@ inline int Multiplication(int a, int b)
     return a * b;
 }
 
+// defalut arguments; 
+float area_of_circle(int radius, float pie = 3.14) {
+    return radius * radius * pie; 
+}
+
+
 
 
 int main()
 {
-    int first_number;
+   /*  int first_number;
     int second_number;
 
     cout << "Enter no1: ";
     cin >> first_number;
 
     cout << "Enter no2: ";
-    cin >> second_number;
+    cin >> second_number; */
 
     /*  cout << "The sum is: "<< sum(first_number, second_number)<< endl;  */
 
+    /* cout << "The multiplication is: " << Multiplication(first_number, second_number) << endl;
     cout << "The multiplication is: " << Multiplication(first_number, second_number) << endl;
     cout << "The multiplication is: " << Multiplication(first_number, second_number) << endl;
     cout << "The multiplication is: " << Multiplication(first_number, second_number) << endl;
     cout << "The multiplication is: " << Multiplication(first_number, second_number) << endl;
     cout << "The multiplication is: " << Multiplication(first_number, second_number) << endl;
     cout << "The multiplication is: " << Multiplication(first_number, second_number) << endl;
-    cout << "The multiplication is: " << Multiplication(first_number, second_number) << endl;
-    cout << "The multiplication is: " << Multiplication(first_number, second_number) << endl;
+    cout << "The multiplication is: " << Multiplication(first_number, second_number) << endl; */
+
+    cout << area_of_circle(1) << endl; 
+
+
 
     return 0;
 }
 
 
 /* 
+
 Inline: Inline function in C++ is an enhancement feature that improves the execution time and speed of the program.
 
 The compiler may not perform inlining in such circumstances as: 
@@ -56,6 +67,7 @@ If a function contains a switch or goto statement.
 
 
 If a function return type is other than void, and the return statement doesn’t exist in a function body. 
+
 #include <iostream>
 
 int add(int a, int b) {
